@@ -55,11 +55,7 @@ class Calculo:
         if dayEnd==dayStart:
             print("PASO2",  minuteStart, minuteEnd,  minuteEnd-15)
             """si hay 20 minutos de diferencia pero en horas distintas mismo dia. """
-<<<<<<< HEAD
             if hourStart!=hourEnd 
-=======
-            #if hourStart!=hourEnd 
->>>>>>> Maria
             if hourStart==hourEnd and minuteEnd-15>minuteStart and weekDayStart<6:
                 print("PASOOO start 45  end 05")
                 """Si solo dura entre 15 a 59 minutos en dia de semana"""
