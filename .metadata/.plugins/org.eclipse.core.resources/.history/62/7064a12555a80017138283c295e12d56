@@ -1,0 +1,4 @@
+class Servicio:
+    """Clase Servicio calculara informacion 
+    de la inforamcion dada"""
+    def calcularPrecio(inicioDeServicio, finDeServicio):

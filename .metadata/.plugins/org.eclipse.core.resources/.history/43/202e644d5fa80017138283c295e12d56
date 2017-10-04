@@ -1,0 +1,17 @@
+from datetime import datetime, date, time, timedelta
+
+class Tarifa:
+    """Clase Servicio calculara informacion 
+    de la inforamcion dada"""
+    def __init__(self, inicioDeServicio, finDeServicio):
+        print("inicio" + inicioDeServicio +" Fin "+ finDeServicio)
+        self.inicio = inicioDeServicio
+        self.final = finDeServicio
+        self.tarifaFinDeSemana = 100
+        self.tarifaDiaDeSemana = 200
+    def calcularPrecio(self, tarifa, tiempoDeServicio):
+        print("hello")
+formato1 = "%a %b %d %H:%M %Y"       
+hoy = datetime.today()
+cadena1 = hoy.strftime(formato1) 
+print(cadena1)

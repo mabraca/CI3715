@@ -1,0 +1,48 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/mabraca/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/ci3715/com.python.pydev.analysis/v2_indexcache
+root.__init__|1494383395276112000|/home/mabraca/workspace/ci3715/src/root/__init__.py
+root.nested.HolaMundo|1507046188413831000|/home/mabraca/workspace/ci3715/src/root/nested/HolaMundo.py
+root.nested.Servicio|1507119569242433000|/home/mabraca/workspace/ci3715/src/root/nested/Servicio.py
+root.nested.__init__|1494383395292112000|/home/mabraca/workspace/ci3715/src/root/nested/__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=root.nested.Servicio
+-- END DICTIONARY
+-- START TREE 1
+21
+aho|1|ahora!11@
+cad|0|
+cal|0|
+cin|1|cincoMinDespues!11@
+day|1|day!11@
+dos|1|doshraDespues!11@
+fec|0|
+for|0|
+hor|1|hora_actual!11@
+hoy|0|
+ini|1|InicioTiempo!11@
+mas|2|mas_5h!11@mas_5m!11@
+mon|1|month!11@
+num|1|NumeroDeSemana!11@
+pag|1|pagar!11@
+rac|1|racion_de_5h!11@
+ser|0|
+tar|0|
+tie|0|
+tup|0|
+yea|0|
+-- END TREE
+-- START TREE 2
+9
+__i|0|
+cal|0|
+dia|0|
+fin|0|
+hor|0|
+ini|0|
+tar|0|
+tas|0|
+tie|0|
+-- END TREE

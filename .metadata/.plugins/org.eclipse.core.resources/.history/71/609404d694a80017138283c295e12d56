@@ -1,0 +1,16 @@
+from datetime import datetime, date, time, timedelta
+
+
+ahora = datetime.now() 
+hora_actual = time(ahora.hour, ahora.minute, ahora.second)
+mas_5m = ahora + timedelta(seconds=300)
+
+racion_de_5h = timedelta(hours=5)
+mas_5h = ahora + racion_de_5h
+
+print("Hora actual:", ahora)
+print("Hora actual:", hora_actual)
+print("Hora actual + 5 minutos:", mas_5m)
+print("Hora actual + 5 horas:", mas_5h)
+
+InicioTiempo= datetime.now()

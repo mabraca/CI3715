@@ -1,0 +1,11 @@
+class Servicio:
+    
+    #objeto Tarifa
+          print("hello")
+formato1 = " %d %m %Y %H:%M "       
+hoy = datetime.today()
+cadena1 = hoy.strftime(formato1) 
+print(cadena1)
+Tiempo = [5,10,17,6]
+Tarifa = Tarifa()
+

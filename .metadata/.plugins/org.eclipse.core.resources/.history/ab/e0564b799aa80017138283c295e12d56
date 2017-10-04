@@ -1,0 +1,34 @@
+from datetime import datetime, date, time, timedelta
+from gi.overrides.keysyms import diaeresis
+from _locale import DAY_1
+
+
+    
+class Tarifa:
+    """Clase Servicio calculara informacion 
+    de la inforamcion dada"""
+    def __init__(self, inicioDeServicio, finDeServicio):
+        print("inicio" + inicioDeServicio +" Fin "+ finDeServicio)
+        self.inicio = inicioDeServicio
+        self.final = finDeServicio
+        self.tarifaFinDeSemana = 100
+        self.tarifaDiaDeSemana = 200
+    def tiempoDeTrabajo(self, inicioDeServicio, finDeServicio):
+        day= time(inicioDeServicio.day)
+        month= time(inicioDeServicio.month)
+        year= time(inicioDeServicio.year)
+        #15 minutos es aqui 
+        #por un minito si se pasa aqui 
+        horasAPagar =6 
+        return horasAPagar
+    def calcularPrecio(self, tarifa, tiempoDeServicio):
+        #recibe una tupla con la cantidad de horas normalesy fines de semana 
+
+ahora = datetime.now() 
+hora_actual = time(ahora.hour, ahora.minute, ahora.second)
+mas_5m = ahora + timedelta(seconds=300)
+mas_5m = time(mas_5m.hour, mas_5m.minute, mas_5m.second)
+racion_de_5h = timedelta(hours=5)
+mas_5h = ahora + racion_de_5h
+
+  

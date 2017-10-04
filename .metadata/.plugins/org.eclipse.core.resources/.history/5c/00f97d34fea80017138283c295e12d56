@@ -1,0 +1,107 @@
+from datetime import datetime, date, time, timedelta
+from gi.overrides.keysyms import diaeresis
+from _locale import DAY_1
+
+
+    
+class Tarifa:
+    """Clase Servicio calculara informacion 
+    de la inforamcion dada"""
+    def __init__(self, inicioDeServicio, finDeServicio):
+        print("inicio" + inicioDeServicio +" Fin "+ finDeServicio)
+        self.inicio = inicioDeServicio
+        self.final = finDeServicio
+        self.tarifaFinDeSemana = 100
+        self.tarifaDiaDeSemana = 200
+    
+    def tiempoDeTrabajo(self, inicioDeServicio, finDeServicio):
+        pagar=[]
+        """ Inicio de servicio"""
+        dayStart= inicioDeServicio.day
+        monthStart= inicioDeServicio.month
+        yearStart= inicioDeServicio.year
+        hourStart= inicioDeServicio.hour
+        minuteStart= inicioDeServicio.minute
+        weekDayStart= inicioDeServicio.isoweekday() 
+        """Lunes es 1 y Domingo es 7"""
+        
+        """ Fin de servicio"""
+        dayEnd= finDeServicio.day
+        monthEnd= finDeServicio.month
+        yearEnd= finDeServicio.year
+        hourEnd= finDeServicio.hour
+        minuteEnd= finDeServicio.minute
+        weekDayEnd= finDeServicio.isoweekday() 
+        #15 minutos es aqui 
+        #por un minito si se pasa aqui 
+        """Si el dia inicial es menor que el dia final estando en el mismo mes 
+            
+        
+            
+        horasAPagar =6 
+        return horasAPagary ano"""
+        if (dayEnd<dayStart and monthEnd==monthStart and yearEnd==yearStart) or (dayEnd==dayStart and monthEnd==monthStart and yearEnd==yearStart and hourEnd<hourStart):
+            print("Error en los datos")
+            return 0
+        """Si el dia de servicio supera mas de siete dias"""
+        if dayEnd-dayStart>7 or monthEnd!=monthStart or yearEnd!=yearStart:
+            print("El maximo de dias para el servicio ha superado el limite")
+            return 0
+        """ Ha utilizado menos de 15 minutos del servicio""" 
+        if minuteEnd-minuteStart<15 and hourEnd==hourStart and dayEnd==dayStart and monthEnd==monthStart:
+            print("Ha tardado menos de 15 minutos")
+            return 0
+        """Si el servicio es del mismo dia"""
+        if dayEnd==dayStart:
+            horaCobrar = hourEnd-hourStart
+            if minuteEnd>0:
+                horaCobrar += 1
+            
+            if weekDayStart<6:
+                pagar(horaCobrar,0)    
+            else:
+                pagar(horaCobrar,1)
+            
+            return pagar
+            """Si el servicio dura mas de un dia"""
+            """Veo en que dia de la semana estoy le sumo los dias que llevo 
+                de servicios"""
+        else:
+            
+            if weekDayStart<5 and  weekDayEnd<5: 
+                """Si el servicio empezo y termino en un dia de semana""" 
+                hoursWeekday= (weekDayEnd -1)*24            """ Cuantos dias enteros (24hr) se hizo el servicio """
+                hoursWeekday= hoursWeekday + (24-hourEnd)   """El dia que se termino que no se hizo 24hrs"""
+                if minuteEnd>0:
+                    hoursWeekday= hoursWeekday + 1          """Si termino con un minuto mas de la hora se le suma otra hora"""
+                
+            
+            diasDeServicios = dayEnd-dayStart
+            horasDeServicios= hourEnd-hourStart
+            horaCobrar = diasDeServicios*24 + horasDeServicios
+            if weekDayStart + diasDeServicios == 6:
+                pagar(horaCobrar, 1)
+            elif weekDayStart + diasDeServicios > 7:
+                pagar(horaCobrar,2)
+            else:
+                pagar(horaCobrar,0)
+            return pagar
+            
+            
+    def calcularPrecio(self, tarifa, tiempoDeServicio):
+        """"Tarifa es un objeto en donde se guarda las tasas de cobranza"""
+        """Tiempo de servicio es otro arreglo donde la primera posicion indica si es dia de semana """
+        tasaDiaDeSemana=tarifa.semana
+        tasaFinDeSemana=tarifa.findesemana
+        horasCobrar= tiempoDeServicio[0]
+        self.DiasFinesDeSemanaACobrar= tiempoDeServicio[1]
+        precio= horasCobrar
+
+ahora = datetime.now() 
+hora_actual = time(ahora.hour, ahora.minute, ahora.second)
+mas_5m = ahora + timedelta(seconds=300)
+mas_5m = time(mas_5m.hour, mas_5m.minute, mas_5m.second)
+racion_de_5h = timedelta(hours=5)
+mas_5h = ahora + racion_de_5h
+
+  
