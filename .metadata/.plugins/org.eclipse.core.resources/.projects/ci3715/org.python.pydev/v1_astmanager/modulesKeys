@@ -1,4 +1,4 @@
 MODULES_MANAGER_V2
 root.__init__|/home/mabraca/workspace/ci3715/src/root/__init__.py
-root.nested.HolaMundo|/home/mabraca/workspace/ci3715/src/root/nested/HolaMundo.py
+root.nested.Tarifa|/home/mabraca/workspace/ci3715/src/root/nested/Tarifa.py
 root.nested.__init__|/home/mabraca/workspace/ci3715/src/root/nested/__init__.py
