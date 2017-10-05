@@ -93,8 +93,7 @@ class TestTarifa(unittest.TestCase):
         
         print("\n Empieza un dia despues de que termina")
         dDespues = datetime(2014, 10, 4, 18, 14)
-        tiempo_Servicio= calcular.tiempoDeTrabajo(ahora, dDespues)
-        self.assertEqual(calcular.calcularPrecio(tarifa, tiempo_Servicio),0)
+        self.assertRaises(ValueError, calcular.tiempoDeTrabajo, ahora, dDespues)
     
     def test_8(self):
         
@@ -106,8 +105,7 @@ class TestTarifa(unittest.TestCase):
         
         print("\n Maximo de dias superado") 
         mas7d = datetime(2017, 10, 13, 18, 14) 
-        tiempo_Servicio= calcular.tiempoDeTrabajo(ahora, mas7d)
-        self.assertEqual(calcular.calcularPrecio(tarifa, tiempo_Servicio),0)
+        self.assertRaises(ValueError, calcular.tiempoDeTrabajo, ahora, mas7d)
         
     def test_9(self):
         
@@ -117,10 +115,9 @@ class TestTarifa(unittest.TestCase):
         tarifa.DiaSemana=100
         tarifa.DiaFinDeSemana=200
         
-        print("\n Tiempo menor") 
+        print("Tiempo menor") 
         mas14m = datetime(2017, 10, 5, 18, 14)
-        tiempo_Servicio= calcular.tiempoDeTrabajo(ahora, mas14m)
-        self.assertEqual(calcular.calcularPrecio(tarifa, tiempo_Servicio),0)
+        self.assertRaises(ValueError, calcular.tiempoDeTrabajo, ahora, mas14m)
         
         
 if __name__ == '__main__':
