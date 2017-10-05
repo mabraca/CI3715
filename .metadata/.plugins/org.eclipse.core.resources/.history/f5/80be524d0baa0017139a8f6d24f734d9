@@ -103,7 +103,7 @@ class TestTarifa(unittest.TestCase):
         tarifa.DiaSemana=100
         tarifa.DiaFinDeSemana=200
         
-        print("\n Maximo de dias superado") 
+        print("\n maximo de dias superado") 
         mas7d = datetime(2017, 10, 13, 18, 14) 
         self.assertRaises(ValueError, calcular.tiempoDeTrabajo, ahora, mas7d)
         
@@ -115,7 +115,7 @@ class TestTarifa(unittest.TestCase):
         tarifa.DiaSemana=100
         tarifa.DiaFinDeSemana=200
         
-        print("Tiempo menor") 
+        print("tiempo menor") 
         mas14m = datetime(2017, 10, 5, 18, 14)
         self.assertRaises(ValueError, calcular.tiempoDeTrabajo, ahora, mas14m)
         
