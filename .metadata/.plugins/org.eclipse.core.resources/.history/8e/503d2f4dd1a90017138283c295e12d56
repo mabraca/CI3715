@@ -1,0 +1,24 @@
+import unittest
+import Tarifa
+from datetime import datetime, timedelta
+from  unittest.case import TestCase
+
+class TestTarifa(unittest.TestCase):
+    def settings(self):
+        self.calcular = Tarifa.Calculo()
+        self.tarifa = Tarifa.Tarifa()
+        self.tarifa.DiaSemana=100
+        self.tarifa.DiaFinDeSemana=200
+    def testPrimeraPrueba(self):
+        calcular = Tarifa.Calculo()
+        tarifa = Tarifa.Tarifa()
+        tarifa.DiaSemana=100
+        tarifa.DiaFinDeSemana=200
+        ahora = datetime.now() 
+        print(" El mismo dia, y solo 25minutos en dia de Semana")
+        mas_min = ahora + timedelta(minutes=25)
+        tiempo_Servicio= calcular.tiempoDeTrabajo(ahora, mas_min)
+        self.assertEqual(calcular.calcularPrecio(tarifa, tiempo_Servicio),200)
+       
+if __name__ == '__main__':
+    unittest.main()

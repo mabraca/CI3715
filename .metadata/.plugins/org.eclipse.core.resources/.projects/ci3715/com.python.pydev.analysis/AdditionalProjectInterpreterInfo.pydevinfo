@@ -3,12 +3,16 @@
 /home/mabraca/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/ci3715/com.python.pydev.analysis/v2_indexcache
 root.__init__|1494383395276112000|/home/mabraca/workspace/ci3715/src/root/__init__.py
 <<<<<<< HEAD
+<<<<<<< HEAD
 root.nested.__init__|1494383395292112000|/home/mabraca/workspace/ci3715/src/root/nested/__init__.py
 -- END DISKCACHE
 -- START DICTIONARY
 0
 =======
 root.nested.Tarifa|1507165150694917000|/home/mabraca/workspace/ci3715/src/root/nested/Tarifa.py
+=======
+root.nested.Tarifa|1507229813819212000|/home/mabraca/workspace/ci3715/src/root/nested/Tarifa.py
+>>>>>>> Maria
 root.nested.__init__|1494383395292112000|/home/mabraca/workspace/ci3715/src/root/nested/__init__.py
 -- END DISKCACHE
 -- START DICTIONARY
@@ -19,6 +23,7 @@ root.nested.__init__|1494383395292112000|/home/mabraca/workspace/ci3715/src/root
 >>>>>>> Maria
 -- END DICTIONARY
 -- START TREE 1
+<<<<<<< HEAD
 21
 aho|0|
 cad|0|
@@ -60,15 +65,30 @@ fin|0|
 hor|0|
 hrs|0|
 =======
+=======
+7
+aho|0|
+cal|1|Calculo!9@
+dos|0|
+tar|1|Tarifa!9@
+tes|0|
+tie|0|
+uno|0|
+-- END TREE
+-- START TREE 2
+8
+>>>>>>> Maria
 __i|1|__init__!2&10@
 cal|1|calcularPrecio!2&10@
-dia|0|
-fin|0|
-hor|0|
 hrs|2|hrsSemanales!3&11@hrsFines!3&11@
+<<<<<<< HEAD
 >>>>>>> Maria
 ini|0|
+=======
+set|0|
+>>>>>>> Maria
 tar|0|
 tas|2|tasaDiaDeSemana!3&11@tasaFinDeSemana!3&11@
+tes|0|
 tie|1|tiempoDeTrabajo!2&10@
 -- END TREE
