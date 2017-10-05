@@ -2,47 +2,49 @@
 -- START DISKCACHE_2
 /home/mabraca/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/ci3715/com.python.pydev.analysis/v2_indexcache
 root.__init__|1494383395276112000|/home/mabraca/workspace/ci3715/src/root/__init__.py
-root.nested.HolaMundo|1507046188413831000|/home/mabraca/workspace/ci3715/src/root/nested/HolaMundo.py
-root.nested.Servicio|1507119569242433000|/home/mabraca/workspace/ci3715/src/root/nested/Servicio.py
+root.nested.Tarifa|1507165150694917000|/home/mabraca/workspace/ci3715/src/root/nested/Tarifa.py
 root.nested.__init__|1494383395292112000|/home/mabraca/workspace/ci3715/src/root/nested/__init__.py
 -- END DISKCACHE
 -- START DICTIONARY
-1
-1=root.nested.Servicio
+3
+1=root.nested.Tarifa
+2=Calculo
+3=Calculo.calcularPrecio
 -- END DICTIONARY
 -- START TREE 1
 21
 aho|1|ahora!11@
 cad|0|
-cal|0|
-cin|1|cincoMinDespues!11@
-day|1|day!11@
-dos|1|doshraDespues!11@
+cal|2|Calculo!9@Calcular!11@
+cin|0|
+day|0|
+dos|0|
 fec|0|
 for|0|
-hor|1|hora_actual!11@
+hor|0|
 hoy|0|
-ini|1|InicioTiempo!11@
-mas|2|mas_5h!11@mas_5m!11@
-mon|1|month!11@
-num|1|NumeroDeSemana!11@
-pag|1|pagar!11@
-rac|1|racion_de_5h!11@
+ini|0|
+mas|4|mas_2hrs!11@mas_min!11@mas_2hrsfin!11@mas_3d!11@
+mon|0|
+num|0|
+pag|0|
+rac|0|
 ser|0|
-tar|0|
-tie|0|
+tar|2|Tarifa!9@tarifa!11@
+tie|1|tiempo_Servicio!11@
 tup|0|
 yea|0|
 -- END TREE
 -- START TREE 2
-9
-__i|0|
-cal|0|
+10
+__i|1|__init__!2&10@
+cal|1|calcularPrecio!2&10@
 dia|0|
 fin|0|
 hor|0|
+hrs|2|hrsSemanales!3&11@hrsFines!3&11@
 ini|0|
 tar|0|
-tas|0|
-tie|0|
+tas|2|tasaDiaDeSemana!3&11@tasaFinDeSemana!3&11@
+tie|1|tiempoDeTrabajo!2&10@
 -- END TREE

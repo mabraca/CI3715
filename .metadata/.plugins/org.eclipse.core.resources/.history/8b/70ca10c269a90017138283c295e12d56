@@ -9,8 +9,8 @@ class Tarifa:
     pass
 
 class Calculo:
-    """Clase Calculo calculara informacion 
-    de la informacion dada"""
+    """Clase Servicio calculara informacion 
+    de la inforamcion dada"""
     def __init__(self):
         pass
     
@@ -202,14 +202,8 @@ tarifa = Tarifa()
 tarifa.DiaSemana=100
 tarifa.DiaFinDeSemana=200
 Calcular=Calculo()
-""" Caso0:  El mismo dia, y solo 25minutos en dia de Semana"""
-print(" El mismo dia, y solo 25minutos en dia de Semana")
-mas_min = ahora + timedelta(minutes=25)
-tiempo_Servicio= Calcular.tiempoDeTrabajo(ahora, mas_min)
-Calcular.calcularPrecio(tarifa, tiempo_Servicio)
-
-""" Caso1:  El mismo dia, y solo 25minutos en dia Fin de semana"""
-print(" El mismo dia, y solo 25minutos en Fin de Semana")
+""" Caso1:  El mismo dia, y solo 25minutos"""
+print(" El mismo dia, y solo 25minutos")
 ahora2= ahora + timedelta(days=3)
 mas_min = ahora + timedelta(minutes=25) + timedelta(days=3)
 tiempo_Servicio= Calcular.tiempoDeTrabajo(ahora2, mas_min)

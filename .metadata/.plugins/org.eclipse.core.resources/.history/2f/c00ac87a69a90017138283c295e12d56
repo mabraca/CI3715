@@ -9,8 +9,8 @@ class Tarifa:
     pass
 
 class Calculo:
-    """Clase Calculo calculara informacion 
-    de la informacion dada"""
+    """Clase Servicio calculara informacion 
+    de la inforamcion dada"""
     def __init__(self):
         pass
     
@@ -53,9 +53,11 @@ class Calculo:
             return pagar
         """Si el servicio es del mismo dia"""
         if dayEnd==dayStart:
-            """si hay mas de 15 minutos de diferencia pero en horas distintas mismo dia. """
+            print("PASO2", weekDayStart, hourStart==hourEnd,  (minuteEnd+(60-minuteStart))+((hourEnd-hourStart-1)*60))
+            """si hay 20 minutos de diferencia pero en horas distintas mismo dia. """
             #if hourStart!=hourEnd 
             if (hourStart==hourEnd or hourEnd==hourStart +1) and (minuteEnd+(60-minuteStart))+((hourEnd-hourStart-1)*60)>15 and weekDayStart<6:
+                print("PASOOO start 45  end 05")
                 """Si solo dura entre 15 a 59 minutos en dia de semana"""
                 pagar.append(1)
                 pagar.append(0) 
@@ -202,17 +204,10 @@ tarifa = Tarifa()
 tarifa.DiaSemana=100
 tarifa.DiaFinDeSemana=200
 Calcular=Calculo()
-""" Caso0:  El mismo dia, y solo 25minutos en dia de Semana"""
-print(" El mismo dia, y solo 25minutos en dia de Semana")
+""" Caso1:  El mismo dia, y solo 25minutos"""
+print(" El mismo dia, y solo 25minutos")
 mas_min = ahora + timedelta(minutes=25)
 tiempo_Servicio= Calcular.tiempoDeTrabajo(ahora, mas_min)
-Calcular.calcularPrecio(tarifa, tiempo_Servicio)
-
-""" Caso1:  El mismo dia, y solo 25minutos en dia Fin de semana"""
-print(" El mismo dia, y solo 25minutos en Fin de Semana")
-ahora2= ahora + timedelta(days=3)
-mas_min = ahora + timedelta(minutes=25) + timedelta(days=3)
-tiempo_Servicio= Calcular.tiempoDeTrabajo(ahora2, mas_min)
 Calcular.calcularPrecio(tarifa, tiempo_Servicio)
 
 """ Caso2: El mismo dia, y mas dos horas en dia de Semana"""
