@@ -4,7 +4,7 @@ Created on 08/10/2017
 @author: mabraca
 '''
 
-    
+            
 class BilleteraElectronica:
     """Datos personales del dueño PIN(Personal Identification Number) es un código secreto a la hora de autentificar la
     identidad del usuario"""
@@ -46,15 +46,22 @@ class BilleteraElectronica:
     
     def recargar(self, monto, fecha, ident, CI):
         if CI== self.CI:
-            self.Credito(monto, fecha, ident)
-            self.saldoPrincipal= self.saldoPrincipal + monto
-            return True
+            if monto>0:
+                self.Credito(monto, fecha, ident)
+                self.saldoPrincipal= self.saldoPrincipal + monto
+                return True
+            else:
+                print("No puede recargar saldo negativo")
+                return False
         else:
             print("ERROR. Usuario incorrecto")
             return False
     
     def consumir(self, monto, fecha, ident, CI, PIN):
         if CI==self.CI and PIN==self.PIN:
+            if monto<0:
+                print("Error. Monto de consumo negativo")
+                return False
             if self.saldoPrincipal>=monto:
                 self.Debito(monto, fecha, ident)
                 self.saldoPrincipal= self.saldoPrincipal - monto

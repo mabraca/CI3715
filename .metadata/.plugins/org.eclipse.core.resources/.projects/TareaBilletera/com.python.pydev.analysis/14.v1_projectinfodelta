@@ -1,1 +1,13 @@
-DELSTRroot.nested.BilleteraElectronica
+INSTUProot.nested.Test_billetera
+/home/mabraca/workspace/TareaBilletera/src/root/nested/Test_billetera.py
+INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1&&2|5|2|1&&2|6|2|1&&2|7|2|1&&2|8|2|1&&2|9|2|1&&2|10|2|1
+test_4=7
+test_3=6
+test_2=5
+test_1=4
+test_0=3
+Test_Billetera=1
+root.nested.Test_billetera=2
+test_7=10
+test_6=9
+test_5=8
