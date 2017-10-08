@@ -1,7 +1,0 @@
-'''
-Created on 09/05/2017
-
-@author: Maria Bracamonte 10-11147 Abelardo Salazar 13-11303
-'''
-if __name__ == '__main__':
-    print('Hello World 10-11147 and 13-11303')

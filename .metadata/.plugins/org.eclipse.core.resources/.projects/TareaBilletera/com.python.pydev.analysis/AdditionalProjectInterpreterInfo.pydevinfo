@@ -1,0 +1,48 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/mabraca/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/TareaBilletera/com.python.pydev.analysis/v2_indexcache
+root.nested.BilleteraElectronica|1507486881563361000|/home/mabraca/workspace/TareaBilletera/src/root/nested/BilleteraElectronica.py
+root.__init__|1507395404285966000|/home/mabraca/workspace/TareaBilletera/src/root/__init__.py
+root.nested.__init__|1507395404317966000|/home/mabraca/workspace/TareaBilletera/src/root/nested/__init__.py
+root.nested.Tarea2|1507395490893963000|/home/mabraca/workspace/TareaBilletera/src/root/nested/Tarea2.py
+-- END DISKCACHE
+-- START DICTIONARY
+9
+1=root.nested.BilleteraElectronica
+9=BilleteraElectronica.consumir
+5=BilleteraElectronica.Debito
+6=BilleteraElectronica.Credito.__init__
+3=BilleteraElectronica
+4=BilleteraElectronica.Credito
+8=BilleteraElectronica.recargar
+2=BilleteraElectronica.__init__
+7=BilleteraElectronica.Debito.__init__
+-- END DICTIONARY
+-- START TREE 1
+3
+bil|4|billetera2!11@billetera3!11@billetera1!11@BilleteraElectronica!9@
+cre|0|
+deb|0|
+-- END TREE
+-- START TREE 2
+19
+CI|1|CI!2&11@
+__i|3|__init__!3&10@__init__!4&10@__init__!5&10@
+__r|2|__repr__!4&10@__repr__!5&10@
+ape|1|apellidos!2&11@
+bus|0|
+ced|0|
+cla|0|
+con|1|consumir!3&10@
+cor|0|
+cre|1|Credito!3&9@
+deb|1|Debito!3&9@
+fec|2|fecha!6&11@fecha!7&11@
+id|2|id!6&11@id!7&11@
+mon|2|monto!6&11@monto!7&11@
+nom|1|nombres!2&11@
+pin|1|PIN!2&11@
+rec|1|recargar!3&10@
+reg|0|
+sal|4|saldoPrincipal!2&11@saldoPrincipal!8&11@saldoPrincipal!9&11@saldo!3&10@
+-- END TREE
