@@ -1,0 +1,55 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/mabraca/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/HolaMundo/com.python.pydev.analysis/v2_indexcache
+BracamonteSerrano.apps|1507495220595948000|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/apps.py
+HolaMundo.views|1507496785879898000|/home/mabraca/workspace/HolaMundo/HolaMundo/views.py
+BracamonteSerrano.__init__|1507495220595948000|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/__init__.py
+HolaMundo.__init__|1507493938631990000|/home/mabraca/workspace/HolaMundo/HolaMundo/__init__.py
+manage|1507493938631990000|/home/mabraca/workspace/HolaMundo/manage.py
+BracamonteSerrano.migrations.__init__|1507495220599948000|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/migrations/__init__.py
+BracamonteSerrano.tests|1507495220587948000|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/tests.py
+HolaMundo.wsgi|1507493938631990000|/home/mabraca/workspace/HolaMundo/HolaMundo/wsgi.py
+BracamonteSerrano.admin|1507495220591948000|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/admin.py
+BracamonteSerrano.urls|1507496722503900000|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/urls.py
+HolaMundo.settings|1507493938671990000|/home/mabraca/workspace/HolaMundo/HolaMundo/settings.py
+BracamonteSerrano.models|1507495220599948000|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/models.py
+BracamonteSerrano.views|1507495312703945000|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/views.py
+HolaMundo.urls|1507496816835897000|/home/mabraca/workspace/HolaMundo/HolaMundo/urls.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+8=BracamonteserranoConfig
+3=BracamonteSerrano.apps
+4=HolaMundo.views
+2=HolaMundo.wsgi
+1=HolaMundo.settings
+7=BracamonteSerrano.urls
+5=BracamonteSerrano.views
+6=HolaMundo.urls
+-- END DICTIONARY
+-- START TREE 1
+19
+all|1|ALLOWED_HOSTS!11@
+app|1|application!19@
+aut|1|AUTH_PASSWORD_VALIDATORS!11@
+bas|1|BASE_DIR!11@
+bra|1|BracamonteserranoConfig!25@
+dat|1|DATABASES!11@
+deb|1|DEBUG!11@
+ind|2|index!34@index!42@
+ins|1|INSTALLED_APPS!11@
+lan|1|LANGUAGE_CODE!11@
+mid|1|MIDDLEWARE_CLASSES!11@
+roo|1|ROOT_URLCONF!11@
+sec|1|SECRET_KEY!11@
+sta|1|STATIC_URL!11@
+tem|1|TEMPLATES!11@
+tim|1|TIME_ZONE!11@
+url|2|urlpatterns!51@urlpatterns!59@
+use|3|USE_L10N!11@USE_I18N!11@USE_TZ!11@
+wsg|1|WSGI_APPLICATION!11@
+-- END TREE
+-- START TREE 2
+1
+nam|1|name!8&27@
+-- END TREE

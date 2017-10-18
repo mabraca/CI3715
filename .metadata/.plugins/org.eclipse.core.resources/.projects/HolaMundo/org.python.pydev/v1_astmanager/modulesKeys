@@ -1,0 +1,15 @@
+MODULES_MANAGER_V2
+BracamonteSerrano.__init__|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/__init__.py
+BracamonteSerrano.admin|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/admin.py
+BracamonteSerrano.apps|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/apps.py
+BracamonteSerrano.migrations.__init__|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/migrations/__init__.py
+BracamonteSerrano.models|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/models.py
+BracamonteSerrano.tests|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/tests.py
+BracamonteSerrano.urls|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/urls.py
+BracamonteSerrano.views|/home/mabraca/workspace/HolaMundo/BracamonteSerrano/views.py
+HolaMundo.__init__|/home/mabraca/workspace/HolaMundo/HolaMundo/__init__.py
+HolaMundo.settings|/home/mabraca/workspace/HolaMundo/HolaMundo/settings.py
+HolaMundo.urls|/home/mabraca/workspace/HolaMundo/HolaMundo/urls.py
+HolaMundo.views|/home/mabraca/workspace/HolaMundo/HolaMundo/views.py
+HolaMundo.wsgi|/home/mabraca/workspace/HolaMundo/HolaMundo/wsgi.py
+manage|/home/mabraca/workspace/HolaMundo/manage.py

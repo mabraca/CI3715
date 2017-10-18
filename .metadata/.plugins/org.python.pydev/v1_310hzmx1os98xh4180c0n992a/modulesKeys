@@ -2213,6 +2213,9 @@ pexpect.fdpexpect|/usr/lib/python3/dist-packages/pexpect/fdpexpect.py
 pexpect.psh|/usr/lib/python3/dist-packages/pexpect/psh.py
 pexpect.pxssh|/usr/lib/python3/dist-packages/pexpect/pxssh.py
 pexpect.screen|/usr/lib/python3/dist-packages/pexpect/screen.py
+pg8000.__init__|/usr/local/lib/python3.4/dist-packages/pg8000/__init__.py
+pg8000._version|/usr/local/lib/python3.4/dist-packages/pg8000/_version.py
+pg8000.core|/usr/local/lib/python3.4/dist-packages/pg8000/core.py
 pickle|/usr/lib/python3.4/pickle.py
 pickletools|/usr/lib/python3.4/pickletools.py
 pip.__init__|/usr/local/lib/python3.4/dist-packages/pip/__init__.py
@@ -2769,7 +2772,7 @@ shutil|/usr/lib/python3.4/shutil.py
 signal
 site|/usr/lib/python3.4/site.py
 sitecustomize|/usr/lib/python3.4/sitecustomize.py
-six|/usr/lib/python3/dist-packages/six.py
+six|/usr/local/lib/python3.4/dist-packages/six.py
 smtpd|/usr/lib/python3.4/smtpd.py
 smtplib|/usr/lib/python3.4/smtplib.py
 sndhdr|/usr/lib/python3.4/sndhdr.py
